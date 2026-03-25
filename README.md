@@ -8,3 +8,9 @@ The dataset contains 34 variables including:
 - **Demographics:** Age, Gender, Region...
 - **Financials:** Income, Credit Score, Debt-to-Income ratio...
 - **Loan Details:** Interest rate, Term, Loan amount, Property value...
+
+## 🛠️ Requirements
+```bash
+pip install pandas numpy seaborn matplotlib scikit-learn imbalanced-learn
+```
+
