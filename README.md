@@ -3,7 +3,8 @@
 ## 📌 Overview
 
 This project tackles the "Credit Scoring" problem: predicting whether a borrower will default on a loan. Using a high-dimensional dataset (34 features), we implement a full Data Science pipeline—from rigorous statistical hypothesis testing to advanced class imbalance handling.
-![CreditGuard Banner](assets/banner.png)
+
+![image.png](attachment:image.png)
 
 ## 📁 Dataset Structure
 
@@ -78,8 +79,8 @@ The dataset contains 34 variables including:
             <td>duration of the loan in months</td>
         </tr>
         <tr>
-            <td><strong>Neg_amortization</strong></td>
-            <td>indicates whether the loan allows for negative amortization (neg_amm, not_neg)</td>
+            <td><strong>Neg_ammortization</strong></td>
+            <td>indicates whether the loan allows for negative ammortization (neg_amm, not_neg)</td>
         </tr>
         <tr>
             <td><strong>interest_only</strong></td>
@@ -115,7 +116,7 @@ The dataset contains 34 variables including:
         </tr>
         <tr>
             <td><strong>credit_type</strong></td>
-            <td>applicant's type of credit (CIB - credit information bureau , CRIF - CRIF credit information bureau,
+            <td>applicant's type of credit (CIB - credit information bureau , CRIF - CIRF credit information bureau,
                 EXP - experian , EQUI - equifax)</td>
         </tr>
         <tr>
@@ -188,7 +189,7 @@ Open your terminal and navigate to your Desktop:
 
 ```bash
 cd ~/Desktop
-git clone https://github.com/Wissem-Sahli-Engineer/CreditGuard-ML-Scoring.git
+git clone [https://github.com/Wissem-Sahli-Engineer/CreditGuard-ML-Scoring.git](https://github.com/Wissem-Sahli-Engineer/CreditGuard-ML-Scoring.git)
 cd CreditGuard-ML-Scoring
 ```
 
