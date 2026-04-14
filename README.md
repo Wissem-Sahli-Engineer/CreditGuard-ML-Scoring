@@ -4,7 +4,7 @@
 
 This project tackles the "Credit Scoring" problem: predicting whether a borrower will default on a loan. Using a high-dimensional dataset (34 features), we implement a full Data Science pipeline—from rigorous statistical hypothesis testing to advanced class imbalance handling.
 
-![image.png](attachment:image.png)
+![image.png](assets/banner.png)
 
 ## 📁 Dataset Structure
 
