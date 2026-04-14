@@ -1,9 +1,11 @@
 # 🏦 CreditGuard: End-to-End Loan Default Prediction
 
 ## 📌 Overview
+
 This project tackles the "Credit Scoring" problem: predicting whether a borrower will default on a loan. Using a high-dimensional dataset (34 features), we implement a full Data Science pipeline—from rigorous statistical hypothesis testing to advanced class imbalance handling.
 
 ## 📁 Dataset Structure
+
 The dataset contains 34 variables including:
 <table>
     <thead>
@@ -157,7 +159,7 @@ The dataset contains 34 variables including:
 
 ---
 
-### Loan Type Assignments:
+### Loan Type Assignments
 
 -`Type 1` (Conventional Loans): Characterized by higher loan amounts, lower LTV ratios, and stronger credit scores, making them a preferred option for well-qualified, lower-risk borrowers.
 
@@ -165,7 +167,7 @@ The dataset contains 34 variables including:
 
 -`Type 3` (Non-Conventional Loans): Feature moderate loan amounts, the highest LTV ratios, and lower credit scores, often associated with higher-risk products such as jumbo loans or adjustable-rate mortgages.
 
-### Loan Purpose Assignments:
+### Loan Purpose Assignments
 
 -`p1` (Home Purchase): Represents loans taken out for primary residences, often displaying moderate credit scores and higher LTV ratios.
 
@@ -175,7 +177,39 @@ The dataset contains 34 variables including:
 
 -`p4` (Investment Property): Involves larger loan amounts and higher risk profiles, primarily financed through conventional loans due to restrictions on Government-backed funding for investment properties.
 
+## 🚀 Installation & Setup
+
+Follow these steps to get your local development environment running:
+
+### 1. Clone the repository
+
+Open your terminal and navigate to your Desktop:
+
+```bash
+cd ~/Desktop
+git clone [https://github.com/Wissem-Sahli-Engineer/CreditGuard-ML-Scoring.git](https://github.com/Wissem-Sahli-Engineer/CreditGuard-ML-Scoring.git)
+cd CreditGuard-ML-Scoring
+```
+
+### 2. Install Dependencies
+
+It is highly recommended to use a virtual environment to manage dependencies.
+
+```bash
+# Create a virtual environment
+python3 -m venv .venv
+
+# Activate the virtual environment
+
+# On macOS/Linux:
+source .venv/bin/activate
+
+# On Windows:
+# .venv\Scripts\activate
+```
+
 ## 🛠️ Requirements
+
 ```bash
 pip install -r requirements.txt
 ```
