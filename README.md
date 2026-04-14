@@ -189,7 +189,7 @@ Open your terminal and navigate to your Desktop:
 
 ```bash
 cd ~/Desktop
-git clone [https://github.com/Wissem-Sahli-Engineer/CreditGuard-ML-Scoring.git](https://github.com/Wissem-Sahli-Engineer/CreditGuard-ML-Scoring.git)
+git clone https://github.com/Wissem-Sahli-Engineer/CreditGuard-ML-Scoring.git
 cd CreditGuard-ML-Scoring
 ```
 
